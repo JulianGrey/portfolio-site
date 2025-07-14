@@ -1,7 +1,14 @@
-import './Home.scss';
+import { useState } from 'react';
 import Navgrid from '../../components/Navgrid/Navgrid';
+import './Home.scss';
 
 export default function Home() {
+  const [selection, setSelection] = useState('');
+
+  function handleSelection(category: string) {
+    setSelection(category);
+  }
+
   return (
     <div>
       <section className="container">
@@ -16,7 +23,7 @@ export default function Home() {
             </ul>
           </div>
         </div>
-        <Navgrid />
+        <Navgrid selection={selection} onSelect={handleSelection} />
         <div className="clearfix"></div>
       </section>
     </div>
