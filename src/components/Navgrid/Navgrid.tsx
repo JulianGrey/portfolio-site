@@ -1,3 +1,5 @@
+import './Navgrid.scss';
+
 const myCellWidth = 30;
 const horizPlacement = 25;
 const vertPlacement = 35;
