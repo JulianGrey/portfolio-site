@@ -8,8 +8,8 @@ export default function Footer() {
         <div className="column-footer">
           <h3>Julian Grey</h3>
           <ul className="no-indent">
-            <li className="no-bullet">Phone number</li>
-            <li className="no-bullet"><a href="">Email address</a></li>
+            {/* <li className="no-bullet">Phone number</li>
+            <li className="no-bullet"><a href="">Email address</a></li> */}
             <li className="no-bullet"><a href="http://www.linkedin.com/in/julianrgrey" target="_blank">LinkedIn</a></li>
             <li className="no-bullet"><a className="link-github" href="http://github.com/JulianGrey" target="_blank">GitHub</a></li>
           </ul>

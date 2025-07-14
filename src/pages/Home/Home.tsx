@@ -8,9 +8,10 @@ export default function Home() {
         <div className="navgrid-text">
           <div className="request-text">
             <p>Hello and welcome to my website. This website is for the purpose of letting you know more about me, through showcasing various projects that I have worked on.</p>
-            <p>This site is currently under construction for a full rewrite using ReactJS, however please feel free to take a look at my social media to learn more about me, and projects that I have worked on.</p>
+            <p>This site is currently under construction for a full React.js rewrite, and I apologise for the inconvenience caused.</p>
+            <p>However, please feel free to take a look at my socials to learn more about me, and projects that I have worked on.</p>
             <ul>
-              <li><a href="https://github.com/JulianGrey" target="_blank">Github</a></li>
+              <li><a href="https://github.com/JulianGrey" target="_blank">GitHub</a></li>
               <li><a href="https://www.linkedin.com/in/julianrgrey/" target="_blank">LinkedIn</a></li>
             </ul>
           </div>
