@@ -1,6 +1,14 @@
 import './Navgrid.scss';
 
-function composeWord(category: string, alignment: string) {
+type Alignment = 'h' | 'v';
+
+/**
+ *
+ * @param category
+ * @param alignment Should the word be aligned (h)orizontally or (v)ertically?
+ * @returns
+ */
+function composeWord(category: string, alignment: Alignment) {
   const categoryStr = category.toUpperCase();
   const stringArray = categoryStr.split('');
 
@@ -16,13 +24,13 @@ function composeWord(category: string, alignment: string) {
 }
 
 export default function Navgrid() {
-  const about = composeWord("about", "h");
-  const contact = composeWord("contact", "v");
-  const creative = composeWord("creative", "h");
-  const interactive = composeWord("interactive", "v");
-  const portfolio = composeWord("portfolio", "h");
-  const responsive = composeWord("responsive", "h");
-  const simple = composeWord("simple", "h");
+  const about = composeWord('about', 'h');
+  const contact = composeWord('contact', 'v');
+  const creative = composeWord('creative', 'h');
+  const interactive = composeWord('interactive', 'v');
+  const portfolio = composeWord('portfolio', 'h');
+  const responsive = composeWord('responsive', 'h');
+  const simple = composeWord('simple', 'h');
 
   return (
     <div className='navgrid'>
