@@ -2,7 +2,7 @@ const myCellWidth = 30;
 const horizPlacement = 25;
 const vertPlacement = 35;
 
-function displayWord(id, direction, placement, cellWidth) {
+function displayWord(id: string, direction: string, placement: number, cellWidth: number) {
   let elementString = "";
   let styleString = "";
   let reference = "";

@@ -17,7 +17,7 @@ export default function Header() {
   return (
     <header>
       <nav>
-        <a href="/" name="top"></a>
+        <a href="/"></a>
         <div id="navigation" className="container">
           <div className="nav-handler">
             <a id="logo-link" href="/"><img id="logo" src="/images/nameLogoW.png" /></a>
