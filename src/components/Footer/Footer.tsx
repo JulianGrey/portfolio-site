@@ -3,13 +3,11 @@ import './Footer.scss';
 export default function Footer() {
   return (
     <footer className="footer">
-
       <div className="container">
         <div className="column-footer">
           <h3>Julian Grey</h3>
           <ul className="no-indent">
-            {/* <li className="no-bullet">Phone number</li>
-            <li className="no-bullet"><a href="">Email address</a></li> */}
+            <li className="no-bullet"><a href="mailto:contact@juliangrey.dev">contact@juliangrey.dev</a></li>
             <li className="no-bullet"><a href="http://www.linkedin.com/in/julianrgrey" target="_blank">LinkedIn</a></li>
             <li className="no-bullet"><a className="link-github" href="http://github.com/JulianGrey" target="_blank">GitHub</a></li>
           </ul>
@@ -26,10 +24,6 @@ export default function Footer() {
           </ul>
         </div>
       </div>
-
     </footer>
   );
 };
-
-/*<li className="no-bullet"><a className="link-blog" href="/">Blog</a></li>
-<li className="no-bullet"><a className="link-portfolio" href="/">Portfolio</a></li>*/
