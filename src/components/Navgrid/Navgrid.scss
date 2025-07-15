@@ -5,6 +5,7 @@ $horizontal-placement: 25;
 $vertical-placement: 35;
 
 .navgrid {
+  display: flex;
   position: relative;
   margin: auto;
   height: 390px;

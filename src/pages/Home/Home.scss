@@ -1,20 +1,36 @@
 @use '../../styles/variables';
 
 section {
-  clear: both;
-  background: variables.$white;
-  border-bottom: 5px solid variables.$lightest-grey;
+  display: flex;
 
-  .navgrid-text {
-    float: left;
+  &, .navgrid-content {
+    display: flex;
+  }
+
+  .navgrid-content {
+    align-items: center;
     padding-right: 30px;
     width: 585px;
+
+    .request-text {
+      padding: 16px;
+
+      li {
+        list-style-type: disc;
+        margin-left: 12px;
+      }
+      
+      .top-spacing {
+        display: block;
+        margin-top: 12px;
+      }
+    }
   }
 }
 
 @media all and (min-width: variables.$large-size) {
   section {
-    .navgrid-text {
+    .navgrid-content {
       width: 885px;
     }
   }
