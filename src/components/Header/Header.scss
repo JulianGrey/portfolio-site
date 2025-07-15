@@ -1,25 +1,12 @@
-// Colours
-$black: #000;
-$dark-grey: #555;
-$mid-grey: #aaa;
-$light-grey: #dedede;
-$lighter-grey: #eee;
-$lightest-grey: #f6f6f6;
-$red: #c00;
-$white: #fff;
-
-// Media sizes
-$large-size: 1280px;
-$medium-size: 960px;
-
+@use '../../styles/variables';
 
 nav {
   position: relative;
   height: 70px;
   margin: 0 auto;
   padding-top: 1px;
-  background: $black;
-  box-shadow: 3px 3px 10px $black;
+  background: variables.$black;
+  box-shadow: 3px 3px 10px variables.$black;
   z-index: 1;
 
   ul {
@@ -39,8 +26,8 @@ nav {
     margin-left: 30px;
 
     a:hover {
-      color: $lighter-grey;
-      border-bottom: 2px solid $light-grey;
+      color: variables.$lighter-grey;
+      border-bottom: 2px solid variables.$light-grey;
     }
   }
 
@@ -65,7 +52,7 @@ nav {
     top: 10px;
 
     &:hover {
-      border-bottom: 3px solid $black;
+      border-bottom: 3px solid variables.$black;
     }
   }
 }

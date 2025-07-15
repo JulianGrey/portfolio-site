@@ -1,26 +1,9 @@
-// Colours
-$black: #000;
-$dark-grey: #555;
-$mid-grey: #aaa;
-$light-grey: #dedede;
-$lighter-grey: #eee;
-$lightest-grey: #f6f6f6;
-$red: #c00;
-$white: #fff;
-
-// Media sizes
-$large-size: 1280px;
-$medium-size: 960px;
-
-
-$character-width: 30px;
-$horizontal-placement: 25;
-$vertical-placement: 35;
+@use '../../styles/variables';
 
 section {
   clear: both;
-  background: $white;
-  border-bottom: 5px solid $lightest-grey;
+  background: variables.$white;
+  border-bottom: 5px solid variables.$lightest-grey;
 
   .navgrid-text {
     float: left;
@@ -29,7 +12,7 @@ section {
   }
 }
 
-@media all and (min-width: $large-size) {
+@media all and (min-width: variables.$large-size) {
   section {
     .navgrid-text {
       width: 885px;

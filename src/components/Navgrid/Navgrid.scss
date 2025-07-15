@@ -1,16 +1,4 @@
-// Colours
-$black: #000;
-$dark-grey: #555;
-$mid-grey: #aaa;
-$light-grey: #dedede;
-$lighter-grey: #eee;
-$lightest-grey: #f6f6f6;
-$red: #c00;
-$white: #fff;
-
-// Media sizes
-$large-size: 1280px;
-$medium-size: 960px;
+@use '../../styles/variables';
 
 $character-width: 30px;
 $horizontal-placement: 25;
@@ -38,16 +26,16 @@ $vertical-placement: 35;
 }
 
 .grid-link {
-  color: $mid-grey;
+  color: variables.$mid-grey;
   z-index: 0;
 
   &:hover {
-    color: $dark-grey;
+    color: variables.$dark-grey;
     z-index: 2;
   }
 
   &.active {
-    color: $red !important;
+    color: variables.$red !important;
     z-index: 1;
   }
 }

@@ -1,17 +1,4 @@
-// Colours
-$black: #000;
-$dark-grey: #555;
-$mid-grey: #aaa;
-$light-grey: #dedede;
-$lighter-grey: #eee;
-$lightest-grey: #f6f6f6;
-$red: #c00;
-$white: #fff;
-
-// Media sizes
-$large-size: 1280px;
-$medium-size: 960px;
-
+@use './styles/variables';
 
 body {
   margin: 0 auto;
@@ -19,7 +6,7 @@ body {
 }
 
 html, main, footer {
-  background: $lightest-grey;
+  background: variables.$lightest-grey;
 }
 
 header, footer, main, div, section, aside {
@@ -28,15 +15,15 @@ header, footer, main, div, section, aside {
 
 a {
   font-weight: bold;
-  color: $mid-grey;
+  color: variables.$mid-grey;
   text-decoration: none;
 
   &:active {
-    color: $red;
+    color: variables.$red;
   }
 
   &:hover {
-    color: $dark-grey;
+    color: variables.$dark-grey;
   }
 }
 
@@ -59,13 +46,13 @@ a {
   clear: both;
 }
 
-@media all and (max-width: $large-size) {
+@media all and (max-width: variables.$large-size) {
   .container {
     width: 960px;
   }
 }
 
-@media all and (max-width: $medium-size) {
+@media all and (max-width: variables.$medium-size) {
   .container {
     width: 100%;
   }
