@@ -7,43 +7,55 @@ export const content: ContentType[] = [
   {
     category: 'about',
     description: <>
-      <p><strong>Hello</strong>, I am Julian Grey, a Tokyo-based software developer.</p><p>A perfectionist and a constant thinker, I strive to better myself by learning new technologies as well as building on existing skills and knowledge, keeping up to speed with the ever-evolving market. I have a keen eye for detail and I am never happy with a project or product unless it has reached its highest possible standard and quality.</p><p>I graduated from the University of Greenwich in the field of Computing with Games Development in 2012, and have since continued to develop myself in numerous technologies. Having studied a technology with interactivity at its core, I gained skills that transfer very kindly to web design and development, including user interaction and UI design, gaining three years of working experience.</p><p>During my downtime I enjoy learning new skills and technologies, listening to music, playing and developing video games. Away from the computer, I enjoy socialising with friends and new people, and studying Japanese.</p>
+      <p>Hi, I'm Julian Grey, a frontend developer focused on crafting clean, intuitive, and engaging digital experiences.</p>
+
+      <p className='top-spacing'>With a background in Computing and Games Development, I bring a unique perspective to the web, blending a keen eye for design with a deep understanding of user interaction. For the past nine years, I've been translating complex problems into elegant, high-performance code. I'm driven by the challenge of building pixel-perfect interfaces and continuously expanding my skill set to keep pace with the ever-evolving tech landscape.</p>
+
+      <p className='top-spacing'>When I'm not coding, I'm usually exploring new technologies, diving into game development, or studying Japanese.</p>
     </>,
   },
   {
     category: 'contact',
     description: <>
-      <p>I am currently available for freelance work and job opportunities. Feel free to contact me with projects or roles, talk about my website and future goals, or simply have a chit chat.</p><p>Alternatively, you can <a href='https://www.linkedin.com/in/julianrgrey' target='_blank'>connect with me on LinkedIn</a> or <a href='https://www.twitter.com/GreyJ_Dev' target='_blank'>follow me on Twitter</a>.</p>
+      <p>I'm always excited to connect and discuss new opportunities. If you have a project in mind, a role to fill, or just want to talk tech, please feel free to reach out.</p>
+      <a className='top-spacing' href="https://www.linkedin.com/in/julianrgrey/" target="_blank">Connect with me on LinkedIn</a>
+      <a className='top-spacing' href="mailto:contact@juliangrey.dev">Email me - contact@juliangrey.dev</a>
     </>,
   },
   {
     category: 'creative',
     description: <>
-      <p>Although convenience is key to a successful website, I enjoy pushing the boundaries allowing my <strong>creativity</strong> to play and add some personality to my projects.</p><p>My intention will always be to improve user experience, however making a mark with something new, fresh and interesting is a big drive for me.</p>
+      <p>I believe creativity is about more than just aesthetics, it's about finding innovative solutions to complex problems. I enjoy pushing the boundaries to add personality and unique interactions to my projects, making them memorable and engaging for users.</p>
     </>,
   },
   {
     category: 'interactive',
     description: <>
-      <p>As technology evolves, the world wide web evolves with it. Nowadays if something has a screen, chances are it can connect to the internet in some shape or form. This presents new and interesting ways to access and display information to different people in many different ways.</p><p>I look at all aspects of a project with <strong>interactivity</strong> in mind to make it feel modern with subtle and intuitive interfaces and presentation.</p>
+      <p>Modern web experiences are dynamic. I build with interactivity at the forefront, using subtle animations and transitions to create an intuitive and responsive user journey. My goal is to make interfaces that feel alive and natural to use.</p>
     </>,
   },
   {
     category: 'portfolio',
     description: <>
-      <p>The purpose of my website is to serve as a central gateway to various <strong>portfolio</strong> projects I have worked on or am currently working on, as I dive deeper into different forms of software development. As someone who is passionate about programming, I aim to be as skilled as possible in a number of technologies. On the web side of things, I am working on improving my knowledge of ReactJS, whereas on the games side I am most comfortable in Unity3D using C# as a programming language.</p><p>Many of my projects (past and current) can be found on my <a href='http://github.com/JulianGrey' target='_blank'>GitHub</a>.</p><h3>Planned and Ongoing Projects</h3><ul><li>ReactJS</li><li>NodeJS</li><li>Unity3D</li></ul>
+      <p>This website serves as a living portfolio, documenting my journey as I explore new technologies and build out projects. I'm passionate about continuous learning, and here you'll find my work-in-progress and future case studies. For a real-time look at my coding activity, feel free to check out my GitHub.</p>
+      <p className='top-spacing bold'>Current Learning & Development Focus</p>
+      <ul>
+        <li>React: Deepening my expertise in building complex, scalable applications</li>
+        <li>Node.js: Expanding my full-stack capabilities</li>
+        <li>Godot: Experimenting with the open-source game engine</li>
+      </ul>
     </>,
   },
   {
     category: 'responsive',
     description: <>
-      <p>With the internet becoming available on an increasing number of different devices, new and different methods are required to get the most out of a website on screens of varying shapes, sizes and orientations.</p><p><strong>Responsiveness</strong> is a big focus in my projects, and you can expect cross-browser and cross-platform compatibility.</p>
+      <p>In today's multi-device world, a seamless experience is paramount. I build with a responsive-by-default methodology, ensuring every project is optimized for all screen sizes, from mobile phones to desktop monitors. Cross-browser and cross-platform compatibility are standard in my work.</p>
     </>,
   },
   {
     category: 'simple',
     description: <>
-      <p>In a world where apparently everything under the sun needs to be implemented... it is very easy for people to get confused with what a product or technology can do. Where this can be categorised as being convenient having everything in one place, it can present a strain on resources, either on the technology itself or the individual's time, becoming inconvenient.</p><p>My projects are built with <strong>simplicity</strong> at the core, both aesthetically and functionally, resulting in clean and intuitive code and designs that do exactly what they are intended to do, nothing more and nothing less, improving user experience.</p>
+      <p>I subscribe to the "less is more" philosophy. Simplicity is key to creating products that are not only elegant and intuitive but also performant and maintainable. I focus on writing clean code and designing interfaces that do exactly what they need to do, exceptionally well.</p>
     </>,
   },
 ];
