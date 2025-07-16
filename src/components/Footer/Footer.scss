@@ -1,17 +1,8 @@
-footer {
-  clear: both;
+.footer {
+  display: flex;
+  justify-content: space-around;
 
-  ul {
-    margin-top: -1px;
-    padding-top: -1px;
-  }
-
-  .column-footer {
-    padding: 10px 0 30px;
-    font-size: 0.9em;
-    width: 33%;
-    display: inline-block;
-    vertical-align: top;
-    text-align: center;
+  li {
+    list-style-type: none;
   }
 }
