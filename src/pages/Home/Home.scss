@@ -27,11 +27,3 @@ section {
     }
   }
 }
-
-@media all and (min-width: variables.$large-size) {
-  section {
-    .navgrid-content {
-      width: 885px;
-    }
-  }
-}

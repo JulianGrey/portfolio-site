@@ -23,7 +23,7 @@ export default function Home() {
 
   return (
     <div>
-      <section className="container">
+      <section>
         <div className="navgrid-content">
           <div className="request-text">
             {content}

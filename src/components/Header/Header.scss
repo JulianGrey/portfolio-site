@@ -56,13 +56,3 @@ nav {
     }
   }
 }
-
-@media all and (max-width: 960px) {
-  .nav-handler, nav ul {
-    text-align: center;
-  }
-
-  nav li {
-    margin: 0 15px;
-  }
-}
