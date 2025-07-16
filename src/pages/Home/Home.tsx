@@ -25,7 +25,7 @@ export default function Home() {
     <div>
       <section>
         <div className="navgrid-content">
-          <div className="request-text">
+          <div className="content-text">
             {content}
           </div>
         </div>
