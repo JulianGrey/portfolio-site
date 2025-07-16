@@ -30,7 +30,6 @@ export default function Home() {
           </div>
         </div>
         <Navgrid selection={selection} onSelect={handleSelection} />
-        <div className="clearfix"></div>
       </section>
     </div>
   );

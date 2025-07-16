@@ -35,10 +35,6 @@ a {
   width: 100%;
 }
 
-.clearfix {
-  clear: both;
-}
-
 @media all and (max-width: variables.$large-size) {
   .container {
     width: 960px;
