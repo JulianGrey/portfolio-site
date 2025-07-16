@@ -1,17 +1,13 @@
 @use './styles/variables';
 
-body {
-  margin: 0 auto;
-  font-family: 'Muli', 'Arial', sans-serif;
-}
-
-html, main, footer {
+html {
   background: variables.$background-colour;
   color: variables.$white;
 }
 
-header, footer, main, div, section, aside {
-  box-sizing: border-box;
+body {
+  margin: 0 auto;
+  font-family: 'Muli', 'Arial', sans-serif;
 }
 
 a {
@@ -43,7 +39,8 @@ a {
 .container {
   margin: 24px auto;
   padding: 10px;
-  width: 1280px;
+  max-width: 1280px;
+  width: 100%;
 }
 
 .clearfix {

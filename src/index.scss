@@ -1,8 +1,11 @@
 @use 'reset-css';
 
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin-bottom: 12px;
 }
 
 h1 {
