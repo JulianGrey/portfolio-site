@@ -1,58 +1,6 @@
 @use '../../styles/variables';
 
-nav {
-  position: relative;
-  height: 70px;
-  margin: 0 auto;
-  padding-top: 1px;
-  background: variables.$black;
-  box-shadow: 3px 3px 10px variables.$black;
-  z-index: 1;
-
-  ul {
-    float: right;
-    margin-top: -1px;
-    padding-top: -1px;
-    margin-bottom: 0;
-  }
-
-  li {
-    position: relative;
-    display: inline-block;
-    font-weight: bold;
-    height: 64px;
-    line-height: 64px;
-    font-size: 26px;
-    margin-left: 30px;
-
-    a:hover {
-      color: variables.$lighter-grey;
-      border-bottom: 2px solid variables.$light-grey;
-    }
-  }
-
-  li, #logo-link, #logo-link:hover {
-    float: left;
-  }
-
-  .nav-handler {
-    display: inline;
-  }
-
-  #navigation {
-    padding: 0 10px;
-  }
-
-  #logo:hover {
-    opacity: 0.7;
-  }
-
-  #logo-link {
-    position: relative;
-    top: 10px;
-
-    &:hover {
-      border-bottom: 3px solid variables.$black;
-    }
-  }
+header {
+  position: fixed;
+  padding: 12px;
 }
