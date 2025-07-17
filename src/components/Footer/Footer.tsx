@@ -9,9 +9,6 @@ export default function Footer() {
         <li><a href="http://www.linkedin.com/in/julianrgrey" target="_blank">LinkedIn</a></li>
         <li><a href="mailto:contact@juliangrey.dev">contact@juliangrey.dev</a></li>
       </FooterColumn>
-      <FooterColumn heading='SiteMap'>
-        <li><a href="/">Home</a></li>
-      </FooterColumn>
     </footer>
   );
 };
