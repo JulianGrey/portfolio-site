@@ -1,8 +1,6 @@
 @use '../../styles/variables';
 
 .footer {
-  display: flex;
-  justify-content: space-around;
   margin: variables.$layout-buffer 0;
 
   li {

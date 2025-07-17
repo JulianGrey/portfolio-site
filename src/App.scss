@@ -10,6 +10,15 @@ body {
   font-family: 'Muli', 'Arial', sans-serif;
 }
 
+header, main, footer {
+  display: flex;
+  justify-content: center;
+
+  & > * {
+    max-width: 1280px;
+  }
+}
+
 a {
   font-weight: bold;
   color: variables.$hyperlink;
