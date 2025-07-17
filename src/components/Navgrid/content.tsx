@@ -9,7 +9,7 @@ export const content: ContentType[] = [
   {
     category: 'about',
     description: <>
-      <p className='top-spacing'>{ getTimeGreeting() }, I'm Julian Grey, a frontend developer focused on crafting clean, intuitive, and engaging digital experiences.</p>
+      <p className='top-spacing'>{ getTimeGreeting() }. I'm Julian Grey, a frontend developer focused on crafting clean, intuitive, and engaging digital experiences.</p>
 
       <p className='top-spacing'>With a background in Computing and Games Development, I bring a unique perspective to the web, blending a keen eye for design with a deep understanding of user interaction. For the past nine years, I've been translating complex problems into elegant, high-performance code. I'm driven by the challenge of building pixel-perfect interfaces and continuously expanding my skill set to keep pace with the ever-evolving tech landscape.</p>
 
