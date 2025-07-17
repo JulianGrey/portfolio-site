@@ -1,7 +1,7 @@
 @use '../../styles/variables';
 
-section {
-  display: flex;
+.home {
+  margin: 16px;
 
   &, .navgrid-content {
     display: flex;
@@ -9,11 +9,9 @@ section {
 
   .navgrid-content {
     align-items: center;
-    padding-right: 30px;
-    width: 585px;
 
     .content-text {
-      padding: 16px;
+      margin-right: 24px;
 
       li {
         list-style-type: disc;

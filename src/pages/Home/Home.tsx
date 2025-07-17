@@ -22,15 +22,13 @@ export default function Home() {
   }, []);
 
   return (
-    <div>
-      <section>
-        <div className="navgrid-content">
-          <div className="content-text">
-            {content}
-          </div>
+    <div className='home'>
+      <div className="navgrid-content">
+        <div className="content-text">
+          {content}
         </div>
-        <Navgrid selection={selection} onSelect={handleSelection} />
-      </section>
+      </div>
+      <Navgrid selection={selection} onSelect={handleSelection} />
     </div>
   );
 }
