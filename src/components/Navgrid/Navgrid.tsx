@@ -31,6 +31,7 @@ export default function Navgrid({ selection, onSelect }: NavgridProps) {
   const [ modalVisibility, setModalVisibility] = useState(false);
   const [ showModal, setShowModal ] = useState(false);
   const contentExpand = document.getElementById('content-expand');
+  const helper = 'Please tap a category above for more information';
 
   function handleShowModal(value: boolean) {
     if (value) {
@@ -83,9 +84,12 @@ export default function Navgrid({ selection, onSelect }: NavgridProps) {
         <>
           {showModal && createPortal(
             <Modal visible={modalVisibility} onClick={() => handleShowModal(false)}>
-              <div className='navgrid'>
-                {about}{contact}{creative}{interactive}{portfolio}{responsive}{simple}
-              </div>
+              <>
+                <div className='navgrid'>
+                  {about}{contact}{creative}{interactive}{portfolio}{responsive}{simple}
+                </div>
+                <div className='helper'>{ helper }</div>
+              </>
             </Modal>,
             document.body,
           )}
