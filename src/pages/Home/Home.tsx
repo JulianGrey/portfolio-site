@@ -7,8 +7,8 @@ import './Home.scss';
 const contents = content;
 
 export default function Home() {
-  const [content, setContent] = useState(<></>);
-  const [selection, setSelection] = useState('');
+  const [ content, setContent ] = useState(<></>);
+  const [ selection, setSelection ] = useState('');
 
   function handleSelection(category: string) {
     const categoryContent = contents.find(content => content.category === category);

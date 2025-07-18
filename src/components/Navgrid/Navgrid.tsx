@@ -11,7 +11,7 @@ interface NavgridProps {
 type Alignment = 'h' | 'v';
 
 function useWindowWidth() {
-  const [width, setWidth] = useState(window.innerWidth);
+  const [ width, setWidth ] = useState(window.innerWidth);
 
   useEffect(() => {
     function handleResize() {
