@@ -44,7 +44,7 @@ export const content: ContentType[] = [
       <ul>
         <li>React: Deepening my expertise in building complex, scalable applications</li>
         <li>Node.js: Expanding my full-stack capabilities</li>
-        <li>Godot: Experimenting with the open-source game engine</li>
+        <li>AWS: Gaining practical experience in cloud deployment and infrastructure.</li>
       </ul>
     </>,
   },
